@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DO LIST</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- css fiels -->
+    <!--<link rel="stylesheet" type="text/css" href="css/wow.css">-->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+</head>
+
+<body>
+    <div class="main">
+        <label class="todo">TO DO MAIN LIST</label>
+        <hr>
+        <section class="all-list">
+            <div class="first"> <label class="date"><p id="task-name">Do Home Work </p><br>
+                    <i class="far fa-calendar-alt" aria-hidden="true" id="arrow2"></i> 20/10/1997
+                    
+                    <i  aria-hidden="true" id="arrow3"> </i> 12:25م
+                <i class="far fa-edit" id="editBtn" data-toggle="modal" data-target="#exampleModal" data-taskId="#task-name"></i>
+                <i class="fa fa-arrow-circle-o-down arrow" aria-hidden="true" id="arrow"></i>
+                    
+                 
+                </label>
+
+                <div class="addtion">
+                    <button type="button" class="btn deleteBtn" id="deleteBtn">Delete</button>
+                    <label class="dit"><p id="task-det">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolore aperiam
+                        alias eos debitis aut animi reiciendis autem consequatur numquam? Atque voluptas sapiente iusto
+                        eos deleniti nesciunt facilis explicabo fugiat cumque dolore voluptatem, ex, laudantium
+                        consequatur laboru</p>
+                        <i class="far fa-edit" id="editBtn2"data-toggle="modal" data-target="#exampleModal2" data-taskDet="#task-det"></i></label>
+                </div>
+            </div>
+
+            <div class="first"> <label class="date"><p id="task-name2">Clean The Room</p> <br>
+                <i class="far fa-calendar-alt" aria-hidden="true" id="arrow2"></i> 21/10/1997
+                    <i  aria-hidden="true" id="arrow3"> </i> 1:25م
+<i class="far fa-edit" id="editBtn" data-toggle="modal" data-target="#exampleModal" data-taskId="#task-name2"></i>  
+                                     <i class="fa fa-arrow-circle-o-down arrow" aria-hidden="true" id="arrow"></i>
+                    <!-- <i class="fas fa-arrow-circle-down"></i> -->
+                    
+                </label>
+
+                <div class="addtion">
+                    <button type="button" class="btn deleteBtn" id="deleteBtn">Delete</button>
+                    <label class="dit"><p id="task-det1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolore aperiam
+                        alias eos debitis aut animi reiciendis autem consequatur numquam? Atque voluptas sapiente iusto
+                        eos deleniti nesciunt facilis explicabo fugiat cumque dolore voluptatem, ex, laudantium
+                        consequatur laboru</p>
+                        <i class="far fa-edit" id="editBtn2"data-toggle="modal" data-target="#exampleModal2" data-taskDet="#task-det1"></i></label>
+                </div>
+            </div>
+            <div class="first"> <label class="date"><p id="task-name3">Study lecture</p> <br>
+                <i class="far fa-calendar-alt" aria-hidden="true" id="arrow2"></i> 22/10/1997
+                    <i aria-hidden="true" id="arrow3"> </i> 2:25م
+<i class="far fa-edit" id="editBtn"  data-toggle="modal" data-target="#exampleModal" data-taskId="#task-name3"></i>                    <i class="fa fa-arrow-circle-o-down arrow" aria-hidden="true" id="arrow"></i>
+                    
+                </label>
+
+                <div class="addtion">
+                    <button type="button" class="btn deleteBtn" id="deleteBtn">Delete</button>
+                    <label class="dit"><p id="task-det2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolore aperiam
+                        alias eos debitis aut animi reiciendis autem consequatur numquam? Atque voluptas sapiente iusto
+                        eos deleniti nesciunt facilis explicabo fugiat cumque dolore voluptatem, ex, laudantium
+                        consequatur laboru</p>
+                        <i class="far fa-edit" id="editBtn2"  data-toggle="modal" data-target="#exampleModal2" data-taskDet="#task-det1"></i></label>
+                </div>
+            </div>
+            <div class="first1"> <label class="date"><p id="task-name4">Help My Parant</p> <br>
+                <i class="far fa-calendar-alt" aria-hidden="true" id="arrow2"></i> 23/10/1997
+                    <i aria-hidden="true" id="arrow3"> </i> 3:25م
+<i class="far fa-edit" id="editBtn"  data-toggle="modal" data-target="#exampleModal" data-taskId="#task-name4"></i>                    <i class="fa fa-arrow-circle-o-down arrow" aria-hidden="true" id="arrow"></i>
+                    
+                </label>
+
+                <div class="addtion">
+                    <button type="button" class="btn deleteBtn" id="deleteBtn">Delete</button>
+                    <label class="dit"><p id="task-det3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolore aperiam
+                        alias eos debitis aut animi reiciendis autem consequatur numquam? Atque voluptas sapiente iusto
+                        eos deleniti nesciunt facilis explicabo fugiat cumque dolore voluptatem, ex, laudantium
+                        consequatur laboru</p>
+                        <i class="far fa-edit" id="editBtn2"  data-toggle="modal" data-target="#exampleModal2" data-taskDet="#task-det3"></i>
+                        </label>
+                </div>
+            </div>
+        </section>
+        <hr id="line">
+        <form class="add-date">
+            <div class="form-group add">
+                <label for="recipient-name" class="col-form-label">Title:</label>
+                <input type="text" class="form-control" id="recipient-name">
+                <label for="recipient-name" class="col-form-label">Time:</label>
+                <input type="text" class="form-control" id="recipient-name">
+                <label for="message-text" class="col-form-label">Detil:</label>
+                <input type="text" class="form-control area" id="message-text">
+                <button type="button" class="btn bot" id="addBtn">ADD </button>
+
+            </div>
+
+
+
+        </form>
+    </div>
+
+   
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New Task Name</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Task Name:</label>
+                            <input type="text" class="form-control" id="recipienName">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="Edit">Edit Task Name</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+   <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">New Task Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name2" class="col-form-label">Task Details:</label>
+                            <input type="text" class="form-control" id="recipient-name2">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="Edit2">Edit Task Name</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+   
+   
+   
+   
+   
+   
+   
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        var $name;
+        var $detiles;
+
+        $('#addBtn').click(function() {
+
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var ful = h + ":" + m + "م";
+
+
+            var dd = today.getDate();
+            var mm = today.getMonth() + 1; //January is 0!
+            var yyyy = today.getFullYear();
+
+            var day1 = mm + '/' + dd + '/' + yyyy;
+
+            var count = 1;
+            var count2 = 4;
+            var title = $('.add-date').find('#recipient-name').val();
+            var msg = $('.add-date').find('#message-text').val();
+            let ditail = '<div class="first"> <label class="date"> <p id="task'+ count +'">' + title +
+                '</p><br><i class="fa fa-calendar-o" aria-hidden="true"  id="arrow2"></i> ' + day1 + ' <i class="fa fa-clock-o" aria-hidden="true"  id="arrow3"></i>' +
+                ful + '<i class="far fa-edit" id="editBtn" data-toggle="modal" data-target="#exampleModal" data-taskId="#task'+ count +'"></i><i class="fa fa-arrow-circle-o-down arrow" aria-hidden="true" id="arrow"></i></label><div class="addtion"><label class="dit"><p id="task-det'+count2+'">' + msg + '</p><i class="far fa-edit" id="editBtn2" data-toggle="modal" data-target="#exampleModal2" data-taskDet="#task-det'+count2+'"></i></label><button type="button" class="btn deleteBtn" id="deleteBtn">Delete</button></div></div>';
+            $('.all-list').append(ditail);
+            count++;
+            count2++;
+        });
+
+        $('#Edit').on('click', function() {
+            var taskName = $('#recipienName').val();
+//            alert(taskName);
+            $($name).text(taskName);
+
+        });
+        $('#Edit2').on('click', function() {
+            var detailsTask = $('#recipient-name2').val();
+//            alert(taskName);
+            $($detiles).text(detailsTask);
+
+        });
+
+
+
+        $('.all-list').on("click", '.deleteBtn', function() {
+            $(this).parent().parent().remove();
+        });
+
+        $('.all-list').on("click", '.arrow', function() {
+            $(this).parent().parent().find('.addtion').slideToggle();
+        });
+
+        $('#exampleModal').on('show.bs.modal', function(event) {
+            var button = $(event.relatedTarget) // Button that triggered the modal
+            var recipientId = button.attr("data-taskId");
+            var recipient = $(recipientId).text();
+            // Extract info from data-* attributes
+            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+            var modal = $(this)
+            modal.find('.modal-title').text('New message to ' + recipient)
+            modal.find('.modal-body input').val(recipient)
+            $name = recipientId;
+        });
+        $('#exampleModal2').on('show.bs.modal', function(event) {
+            var button = $(event.relatedTarget) // Button that triggered the modal
+            var recipientId = button.attr("data-taskDet");
+            var recipient = $(recipientId).text();
+            // Extract info from data-* attributes
+            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+            var modal = $(this)
+//            modal.find('.modal-title').text('New message to ' + recipient)
+            modal.find('.modal-body input').val(recipient)
+            $detiles = recipientId;
+        });
+    </script>
+</body>
+
+</html>

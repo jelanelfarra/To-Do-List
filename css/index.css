@@ -1,0 +1,95 @@
+body{
+    background: url(../image/rawpixel-603649-unsplash.jpg) no-repeat center;
+	background-size:cover;
+    min-height: 100vh;
+}
+.main{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    background-color: black;
+    opacity: .8;
+
+}.todo{
+    font-size: 50px;
+    font-weight: bold;
+    color: aqua;
+    text-align: center;
+    width: 100%;
+}.date{
+    color: white;
+    text-align: center;
+    width: 90%;
+    font-size:20px;
+}.date #arrow{
+   margin-left: 65%;
+    margin-top: 0.5%;
+    color: aqua;
+    font-size: 30px;
+}.date #arrow3{
+    padding-left: 10px;
+    border-left: 3px solid #FFF;
+}.first{
+    background-color: #695a5a;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}#line{
+    color: aqua;
+/*    height: 5px; */
+}.add{
+    font-size: 30px;
+     margin-left: 10%;
+    margin-right: 10%;
+    color: aqua;
+    font-weight: bold;
+}.add .area{
+    height: 150px;
+}.add .bot{
+    background-color: aqua;
+/*    float: right;*/
+    margin-left: 92%;
+    font-weight: bold;
+}
+.addtion{display: none}
+.addtion .dit{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+}
+.arrow{
+    cursor: pointer
+}
+.first1{
+    background-color: #695a5a;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+#deleteBtn{
+    float: right;
+    margin-top:-70px; 
+    margin-right:10px; 
+}
+.first i{
+    color: aqua;
+    margin-left:15px;
+}
+.first i:hover{
+    color: aquamarine;
+    
+}
+.first1 i{
+    color: aqua;
+    margin-left:15px;
+}
+.first1 i:hover{
+    color: aquamarine;
+    
+}
+
+    
+ 
+
